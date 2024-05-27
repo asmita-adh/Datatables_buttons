@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "icts-spfx-beheer-apps-client-side-solution",
+    "id": "2c530ef3-ae39-42ef-af77-3442b15bf007",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "icts-spfx-beheer-apps description"
+      },
+      "longDescription": {
+        "default": "icts-spfx-beheer-apps description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "icts-spfx-beheer-apps Feature",
+        "description": "The feature that activates elements of the icts-spfx-beheer-apps solution.",
+        "id": "cbff5d56-f5dc-4f89-818b-d3a9ca23f97c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/icts-spfx-beheer-apps.sppkg"
+  }
+}

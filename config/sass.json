@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/sass.schema.json",
+  "quietDeps": true //If you have deprecation warnings coming from Sass files you don't maintain in your project, and thus, you have no control over, you can add "quietDeps": true to this file to configure the sass processor to suppress all deprecation warnings.
+}

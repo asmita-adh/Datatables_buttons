@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "beheergroepen-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/beheergroepen/BeheergroepenWebPart.js",
+          "manifest": "./src/webparts/beheergroepen/BeheergroepenWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "BeheergroepenWebPartStrings": "lib/webparts/beheergroepen/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

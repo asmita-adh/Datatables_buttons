@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "icts-spfx-beheer-apps",
+    "libraryId": "2c530ef3-ae39-42ef-af77-3442b15bf007",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "icts-spfx-beheer-apps",
+    "solutionShortDescription": "icts-spfx-beheer-apps description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
